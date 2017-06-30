@@ -16,12 +16,14 @@ public class ProductCatalog {
         Beverage blackTea = new Beverage("BlackTea", new BigDecimal(25.00));
         Beverage bear = new Beverage("Bear", new BigDecimal(18.00));
         Beverage coke = new Beverage("Coke", new BigDecimal(12.00));
+        Beverage loveFeelings= new Beverage("LoveFeelings", new BigDecimal(49.00));
         beverages.put("Coffee", coffee);
         beverages.put("PlainTea", plainTea);
         beverages.put("GreenTea", greenTea);
         beverages.put("BlackTea", blackTea);
         beverages.put("Bear", bear);
         beverages.put("Coke", coke);
+        beverages.put("LoveFeelings", loveFeelings);
 
         Condiment sugar = new Condiment("Sugar", BigDecimal.ZERO);
         Condiment milk = new Condiment("Milk", new BigDecimal(3.50));
